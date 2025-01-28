@@ -9,7 +9,27 @@ function concatenateArrays(arr1, arr2) {
   return newArray;
 }
 
-const array1 = [1, 2, 3];
-const array2 = ["a", "b", "c"];
+const array1 = [
+  {
+    "wwid": "aaa",
+    "name": "Sam"
+  },
+  {
+    "wwid": "bbb",
+    "name": "James"
+  }
+];
+const array2 = [
+  {
+   "courseName":"ABC",
+   " courseWID": "123abc",
+   " courseDate":" 2024 - 01 - 10"
+  },
+  {
+   "courseName": "EFG",
+   "courseWID": "456efg",
+   "courseDate":"2024 - 01 - 15"
+  },
+];
 const result = concatenateArrays(array1, array2);
 console.log(result); // Output: [1, 2, 3, 'a', 'b', 'c']
