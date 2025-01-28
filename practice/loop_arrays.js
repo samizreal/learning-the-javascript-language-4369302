@@ -29,7 +29,7 @@ const array2 = [
    "courseName": "EFG",
    "courseWID": "456efg",
    "courseDate":"2024 - 01 - 15"
-  },
+  }
 ];
 const result = concatenateArrays(array1, array2);
 console.log(result); // Output: [1, 2, 3, 'a', 'b', 'c']
