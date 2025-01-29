@@ -32,4 +32,5 @@ const array2 = [
   }
 ];
 const result = concatenateArrays(array1, array2);
-console.log(result); // Output: [1, 2, 3, 'a', 'b', 'c']
+
+// console.log(result); // Output: [1, 2, 3, 'a', 'b', 'c']
